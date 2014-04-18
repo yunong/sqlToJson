@@ -1,0 +1,23 @@
+{
+    "author": "Yunong J Xiao <yjxiao@gmail.com>",
+    "name": "manatee",
+    "version": "1.0.0",
+    "description": "H/A Postgres Minder",
+    "repository": {
+        "type": "git",
+        "url": "git@joyent.com:yunong/sqlToJson.git"
+    },
+    "main": "./sqlToJson.js",
+    "directories": {
+        "bin": "./"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "dependencies": {
+        "carrier": "0.1.13"
+    },
+    "scripts": {
+        "pretest": "./lint.sh"
+    }
+}
