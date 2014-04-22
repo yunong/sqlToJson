@@ -28,12 +28,10 @@ my_carrier.on('line', function (line) {
         if (schema) {
             var name = schema[1];
             var keys = schema[2].split(', ');
-            // strip out "" in certain keys that conflict with pg
-            // keywords
+            // strip out "" in certain keys that conflict with pg keywords
             for (var i = 0; i < keys.length; i++) {
                 var key = keys[i];
-                if (key[0] === '"' &&
-                key[key.length - 1] === '"') {
+                if (key[0] === '"' && key[key.length - 1] === '"') {
                     keys[i] = key.substr(1, key.length - 2);
                 }
             }
