@@ -1,6 +1,6 @@
 {
     "author": "Yunong J Xiao <yjxiao@gmail.com>",
-    "name": "manatee",
+    "name": "sqlToJson",
     "version": "1.0.0",
     "description": "Converts raw sql to streaming json",
     "repository": {
