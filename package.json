@@ -2,7 +2,7 @@
     "author": "Yunong J Xiao <yjxiao@gmail.com>",
     "name": "manatee",
     "version": "1.0.0",
-    "description": "H/A Postgres Minder",
+    "description": "Converts raw sql to streaming json",
     "repository": {
         "type": "git",
         "url": "git@joyent.com:yunong/sqlToJson.git"
@@ -16,8 +16,5 @@
     },
     "dependencies": {
         "carrier": "0.1.13"
-    },
-    "scripts": {
-        "pretest": "./lint.sh"
     }
 }
