@@ -3,7 +3,6 @@
 // Copyright (c) 2014, Yunong J Xiao. All rights reserved.
 
 var carrier = require('carrier');
-var stream = require('stream');
 var util = require('util');
 
 var my_carrier = carrier.carry(process.stdin);
@@ -14,7 +13,6 @@ process.stdin.resume();
 /* JSSTYLED */
 var PG_REGEX_TABLE = /^COPY ([\w]+) \(((?:[\"?\w\"?]+[\,]?[ ]?){1,})\) FROM stdin\;$/;
 
-var PG_NULL = '\\N';
 var PG_END = '\\.';
 
 var schema = null;
