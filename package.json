@@ -16,5 +16,8 @@
     },
     "dependencies": {
         "carrier": "0.1.13"
+    },
+    "scripts": {
+        "test": "./lint.sh"
     }
 }
