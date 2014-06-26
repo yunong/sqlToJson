@@ -33,7 +33,7 @@ information is not persisted and all fields are emitted as strings.
 
 # Contributions
 
-Contributions welcome.
+Contributions welcome. Please ensure `npm test` runs cleanly.
 
 # License
 
